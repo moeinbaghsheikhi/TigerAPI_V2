@@ -1,0 +1,21 @@
+{
+  "name": "tigerapi/rest",
+  "description": "توضیحات پروژه",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    },
+    "files": [
+      "App/Helpers/Helper.php",
+      "App/Helpers/Http_status_code.php",
+      "App/Helpers/Translate.php"
+    ]
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.4",
+    "firebase/php-jwt": "^6.10",
+    "paragonie/sodium_compat": "^2.0"
+  }
+}
